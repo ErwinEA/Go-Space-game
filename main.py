@@ -6,7 +6,7 @@ import sys
 pygame.init()
 
 
-WIDTH, HEIGHT = 900, 500
+WIDTH, HEIGHT = 800, 500
 monitor_size = [pygame.display.Info().current_w, pygame.display.Info().current_h]
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("GO SPACE")
